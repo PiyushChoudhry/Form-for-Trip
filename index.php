@@ -9,7 +9,6 @@
         if (!$con) {
             die("Connection failed: ".mysqli_connect_error());
         }
-        // echo "successfully connected to DB";
 
         $name = $_POST['name'];
         $age = $_POST['age'];
@@ -18,10 +17,8 @@
         $phone = $_POST['phone'];
         $desc = $_POST['desc'];
         $sql = "INSERT INTO `trip`.`trip` (`NAME`, `AGE`, `GENDER`, `EMAIL`, `PHONE`, `DESC`, `DT`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
-        // echo $sql;
 
         if($con->query($sql)==true){
-            // echo "Successfully inserted";
             $insert = true;
         }
         else{
