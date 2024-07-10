@@ -64,6 +64,5 @@
         </form>
     </div>
     <script src="index.js"></script>
-    <!-- INSERT INTO `trip` (`SNO`, `NAME`, `AGE`, `GENDER`, `EMAIL`, `PHONE`, `OTHER`, `DT`) VALUES ('1', 'textName', '23', 'Male', 'abc@gmail.com', '0123456789', 'This is my first ever php myadmin msg.', current_timestamp()); -->
 </body>
 </html>
