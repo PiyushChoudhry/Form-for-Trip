@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+h3{
+    
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(236, 165, 237); */
+    padding: 34px;
+    margin: auto;
+}
+.container h3,p{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 15px;
+}
+input,textarea{    
+    border: 2px solid black;
+    width: 80%;
+    padding: 7px;
+    margin: 9px auto;
+    font-size: 12px;
+    outline: none;
+    border-radius: 6px;
+    display: block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: black;
+    /* background: rgb(41, 32, 59); */
+    padding: 3px 21px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin: 5px;
+    cursor:pointer;
+}
+.bg{
+    width: 100%;
+    z-index: -1;
+    position:absolute;
+    opacity: 0.6;
+}
+.submitMSG{
+    color: green;
+}
